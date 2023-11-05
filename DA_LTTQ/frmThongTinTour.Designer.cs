@@ -80,13 +80,13 @@ namespace DA_LTTQ
             this.picHinh2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.picHinh1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2GradientPanel3 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2GradientPanel4 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.lblAnh1 = new System.Windows.Forms.Label();
-            this.lblAnh2 = new System.Windows.Forms.Label();
-            this.lblAnh3 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.lblAnh4 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel3 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblAnh2 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel4 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblAnh3 = new System.Windows.Forms.Label();
             this.pnlThongTinTour.SuspendLayout();
             this.guna2GradientPanel5.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
@@ -142,7 +142,7 @@ namespace DA_LTTQ
             // lblMaTour
             // 
             this.lblMaTour.AutoSize = true;
-            this.lblMaTour.BackColor = System.Drawing.SystemColors.Control;
+            this.lblMaTour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblMaTour.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMaTour.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lblMaTour.Location = new System.Drawing.Point(303, 153);
@@ -155,7 +155,7 @@ namespace DA_LTTQ
             // lblMaTourText
             // 
             this.lblMaTourText.AutoSize = true;
-            this.lblMaTourText.BackColor = System.Drawing.SystemColors.Control;
+            this.lblMaTourText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblMaTourText.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMaTourText.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lblMaTourText.Location = new System.Drawing.Point(297, 136);
@@ -190,7 +190,7 @@ namespace DA_LTTQ
             // lblSlot
             // 
             this.lblSlot.AutoSize = true;
-            this.lblSlot.BackColor = System.Drawing.SystemColors.Control;
+            this.lblSlot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblSlot.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSlot.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lblSlot.Location = new System.Drawing.Point(123, 153);
@@ -203,7 +203,7 @@ namespace DA_LTTQ
             // lblNoiKH
             // 
             this.lblNoiKH.AutoSize = true;
-            this.lblNoiKH.BackColor = System.Drawing.SystemColors.Control;
+            this.lblNoiKH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblNoiKH.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNoiKH.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lblNoiKH.Location = new System.Drawing.Point(123, 136);
@@ -216,7 +216,7 @@ namespace DA_LTTQ
             // lblSoNgay
             // 
             this.lblSoNgay.AutoSize = true;
-            this.lblSoNgay.BackColor = System.Drawing.SystemColors.Control;
+            this.lblSoNgay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblSoNgay.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSoNgay.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lblSoNgay.Location = new System.Drawing.Point(123, 119);
@@ -229,7 +229,7 @@ namespace DA_LTTQ
             // lblTGKH
             // 
             this.lblTGKH.AutoSize = true;
-            this.lblTGKH.BackColor = System.Drawing.SystemColors.Control;
+            this.lblTGKH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblTGKH.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTGKH.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lblTGKH.Location = new System.Drawing.Point(123, 102);
@@ -242,7 +242,7 @@ namespace DA_LTTQ
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.BackColor = System.Drawing.SystemColors.Control;
+            this.label34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label34.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label34.Location = new System.Drawing.Point(3, 153);
@@ -255,7 +255,7 @@ namespace DA_LTTQ
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.BackColor = System.Drawing.SystemColors.Control;
+            this.label33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label33.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label33.Location = new System.Drawing.Point(3, 136);
@@ -268,7 +268,7 @@ namespace DA_LTTQ
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.BackColor = System.Drawing.SystemColors.Control;
+            this.label32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label32.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label32.Location = new System.Drawing.Point(3, 119);
@@ -281,7 +281,7 @@ namespace DA_LTTQ
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.BackColor = System.Drawing.SystemColors.Control;
+            this.label31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label31.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label31.Location = new System.Drawing.Point(3, 102);
@@ -586,8 +586,8 @@ namespace DA_LTTQ
             this.btlDatTour.CheckedState.Parent = this.btlDatTour;
             this.btlDatTour.CustomImages.Parent = this.btlDatTour;
             this.btlDatTour.DisabledState.Parent = this.btlDatTour;
-            this.btlDatTour.FillColor = System.Drawing.Color.Navy;
-            this.btlDatTour.FillColor2 = System.Drawing.Color.Gray;
+            this.btlDatTour.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(116)))), ((int)(((byte)(190)))));
+            this.btlDatTour.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(116)))), ((int)(((byte)(190)))));
             this.btlDatTour.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btlDatTour.ForeColor = System.Drawing.Color.White;
             this.btlDatTour.HoverState.Parent = this.btlDatTour;
@@ -699,45 +699,6 @@ namespace DA_LTTQ
             this.guna2GradientPanel1.Size = new System.Drawing.Size(459, 271);
             this.guna2GradientPanel1.TabIndex = 14;
             // 
-            // guna2GradientPanel2
-            // 
-            this.guna2GradientPanel2.BorderColor = System.Drawing.Color.Navy;
-            this.guna2GradientPanel2.BorderRadius = 5;
-            this.guna2GradientPanel2.BorderThickness = 1;
-            this.guna2GradientPanel2.Controls.Add(this.lblAnh4);
-            this.guna2GradientPanel2.Controls.Add(this.picHinh4);
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(477, 193);
-            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(345, 159);
-            this.guna2GradientPanel2.TabIndex = 15;
-            // 
-            // guna2GradientPanel3
-            // 
-            this.guna2GradientPanel3.BorderColor = System.Drawing.Color.Navy;
-            this.guna2GradientPanel3.BorderRadius = 5;
-            this.guna2GradientPanel3.BorderThickness = 1;
-            this.guna2GradientPanel3.Controls.Add(this.lblAnh2);
-            this.guna2GradientPanel3.Controls.Add(this.picHinh2);
-            this.guna2GradientPanel3.Location = new System.Drawing.Point(476, 84);
-            this.guna2GradientPanel3.Name = "guna2GradientPanel3";
-            this.guna2GradientPanel3.ShadowDecoration.Parent = this.guna2GradientPanel3;
-            this.guna2GradientPanel3.Size = new System.Drawing.Size(172, 103);
-            this.guna2GradientPanel3.TabIndex = 16;
-            // 
-            // guna2GradientPanel4
-            // 
-            this.guna2GradientPanel4.BorderColor = System.Drawing.Color.Navy;
-            this.guna2GradientPanel4.BorderRadius = 5;
-            this.guna2GradientPanel4.BorderThickness = 1;
-            this.guna2GradientPanel4.Controls.Add(this.lblAnh3);
-            this.guna2GradientPanel4.Controls.Add(this.picHinh3);
-            this.guna2GradientPanel4.Location = new System.Drawing.Point(652, 83);
-            this.guna2GradientPanel4.Name = "guna2GradientPanel4";
-            this.guna2GradientPanel4.ShadowDecoration.Parent = this.guna2GradientPanel4;
-            this.guna2GradientPanel4.Size = new System.Drawing.Size(167, 104);
-            this.guna2GradientPanel4.TabIndex = 17;
-            // 
             // lblAnh1
             // 
             this.lblAnh1.AutoSize = true;
@@ -752,33 +713,18 @@ namespace DA_LTTQ
             this.lblAnh1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblAnh1.Visible = false;
             // 
-            // lblAnh2
+            // guna2GradientPanel2
             // 
-            this.lblAnh2.AutoSize = true;
-            this.lblAnh2.BackColor = System.Drawing.SystemColors.Control;
-            this.lblAnh2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAnh2.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.lblAnh2.Location = new System.Drawing.Point(3, 2);
-            this.lblAnh2.Name = "lblAnh2";
-            this.lblAnh2.Size = new System.Drawing.Size(41, 17);
-            this.lblAnh2.TabIndex = 57;
-            this.lblAnh2.Text = "Ảnh 2";
-            this.lblAnh2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblAnh2.Visible = false;
-            // 
-            // lblAnh3
-            // 
-            this.lblAnh3.AutoSize = true;
-            this.lblAnh3.BackColor = System.Drawing.SystemColors.Control;
-            this.lblAnh3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAnh3.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.lblAnh3.Location = new System.Drawing.Point(2, 3);
-            this.lblAnh3.Name = "lblAnh3";
-            this.lblAnh3.Size = new System.Drawing.Size(41, 17);
-            this.lblAnh3.TabIndex = 58;
-            this.lblAnh3.Text = "Ảnh 3";
-            this.lblAnh3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblAnh3.Visible = false;
+            this.guna2GradientPanel2.BorderColor = System.Drawing.Color.Navy;
+            this.guna2GradientPanel2.BorderRadius = 5;
+            this.guna2GradientPanel2.BorderThickness = 1;
+            this.guna2GradientPanel2.Controls.Add(this.lblAnh4);
+            this.guna2GradientPanel2.Controls.Add(this.picHinh4);
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(477, 193);
+            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
+            this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(345, 159);
+            this.guna2GradientPanel2.TabIndex = 15;
             // 
             // lblAnh4
             // 
@@ -794,10 +740,65 @@ namespace DA_LTTQ
             this.lblAnh4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblAnh4.Visible = false;
             // 
+            // guna2GradientPanel3
+            // 
+            this.guna2GradientPanel3.BorderColor = System.Drawing.Color.Navy;
+            this.guna2GradientPanel3.BorderRadius = 5;
+            this.guna2GradientPanel3.BorderThickness = 1;
+            this.guna2GradientPanel3.Controls.Add(this.lblAnh2);
+            this.guna2GradientPanel3.Controls.Add(this.picHinh2);
+            this.guna2GradientPanel3.Location = new System.Drawing.Point(476, 84);
+            this.guna2GradientPanel3.Name = "guna2GradientPanel3";
+            this.guna2GradientPanel3.ShadowDecoration.Parent = this.guna2GradientPanel3;
+            this.guna2GradientPanel3.Size = new System.Drawing.Size(172, 103);
+            this.guna2GradientPanel3.TabIndex = 16;
+            // 
+            // lblAnh2
+            // 
+            this.lblAnh2.AutoSize = true;
+            this.lblAnh2.BackColor = System.Drawing.SystemColors.Control;
+            this.lblAnh2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAnh2.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.lblAnh2.Location = new System.Drawing.Point(3, 2);
+            this.lblAnh2.Name = "lblAnh2";
+            this.lblAnh2.Size = new System.Drawing.Size(41, 17);
+            this.lblAnh2.TabIndex = 57;
+            this.lblAnh2.Text = "Ảnh 2";
+            this.lblAnh2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAnh2.Visible = false;
+            // 
+            // guna2GradientPanel4
+            // 
+            this.guna2GradientPanel4.BorderColor = System.Drawing.Color.Navy;
+            this.guna2GradientPanel4.BorderRadius = 5;
+            this.guna2GradientPanel4.BorderThickness = 1;
+            this.guna2GradientPanel4.Controls.Add(this.lblAnh3);
+            this.guna2GradientPanel4.Controls.Add(this.picHinh3);
+            this.guna2GradientPanel4.Location = new System.Drawing.Point(652, 83);
+            this.guna2GradientPanel4.Name = "guna2GradientPanel4";
+            this.guna2GradientPanel4.ShadowDecoration.Parent = this.guna2GradientPanel4;
+            this.guna2GradientPanel4.Size = new System.Drawing.Size(167, 104);
+            this.guna2GradientPanel4.TabIndex = 17;
+            // 
+            // lblAnh3
+            // 
+            this.lblAnh3.AutoSize = true;
+            this.lblAnh3.BackColor = System.Drawing.SystemColors.Control;
+            this.lblAnh3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAnh3.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.lblAnh3.Location = new System.Drawing.Point(2, 3);
+            this.lblAnh3.Name = "lblAnh3";
+            this.lblAnh3.Size = new System.Drawing.Size(41, 17);
+            this.lblAnh3.TabIndex = 58;
+            this.lblAnh3.Text = "Ảnh 3";
+            this.lblAnh3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAnh3.Visible = false;
+            // 
             // frmThongTinTour
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.ClientSize = new System.Drawing.Size(840, 548);
             this.Controls.Add(this.guna2GradientPanel4);
             this.Controls.Add(this.guna2GradientPanel3);

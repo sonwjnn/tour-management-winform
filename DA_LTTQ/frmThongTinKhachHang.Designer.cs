@@ -30,9 +30,9 @@ namespace DA_LTTQ
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.ElipseFrm = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2GradientPanel6 = new Guna.UI2.WinForms.Guna2GradientPanel();
@@ -144,7 +144,7 @@ namespace DA_LTTQ
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.White;
+            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.guna2Panel1.Controls.Add(this.guna2GradientPanel6);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
@@ -183,7 +183,7 @@ namespace DA_LTTQ
             this.label8.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label8.Location = new System.Drawing.Point(382, 3);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(118, 32);
+            this.label8.Size = new System.Drawing.Size(117, 32);
             this.label8.TabIndex = 63;
             this.label8.Text = "Mã Tour:";
             // 
@@ -204,7 +204,7 @@ namespace DA_LTTQ
             this.lblMaTour.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lblMaTour.Location = new System.Drawing.Point(503, 3);
             this.lblMaTour.Name = "lblMaTour";
-            this.lblMaTour.Size = new System.Drawing.Size(110, 32);
+            this.lblMaTour.Size = new System.Drawing.Size(109, 32);
             this.lblMaTour.TabIndex = 62;
             this.lblMaTour.Text = "Mã Tour";
             // 
@@ -223,7 +223,7 @@ namespace DA_LTTQ
             // lblSlot
             // 
             this.lblSlot.AutoSize = true;
-            this.lblSlot.BackColor = System.Drawing.Color.White;
+            this.lblSlot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblSlot.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSlot.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lblSlot.Location = new System.Drawing.Point(535, 185);
@@ -236,7 +236,7 @@ namespace DA_LTTQ
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.BackColor = System.Drawing.Color.White;
+            this.label31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label31.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label31.Location = new System.Drawing.Point(398, 118);
@@ -249,7 +249,7 @@ namespace DA_LTTQ
             // lblNoiKH
             // 
             this.lblNoiKH.AutoSize = true;
-            this.lblNoiKH.BackColor = System.Drawing.Color.White;
+            this.lblNoiKH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblNoiKH.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNoiKH.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lblNoiKH.Location = new System.Drawing.Point(535, 164);
@@ -262,7 +262,7 @@ namespace DA_LTTQ
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.BackColor = System.Drawing.Color.White;
+            this.label32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label32.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label32.Location = new System.Drawing.Point(398, 141);
@@ -275,7 +275,7 @@ namespace DA_LTTQ
             // lblSoNgay
             // 
             this.lblSoNgay.AutoSize = true;
-            this.lblSoNgay.BackColor = System.Drawing.Color.White;
+            this.lblSoNgay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblSoNgay.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSoNgay.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lblSoNgay.Location = new System.Drawing.Point(535, 141);
@@ -288,7 +288,7 @@ namespace DA_LTTQ
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.BackColor = System.Drawing.Color.White;
+            this.label33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label33.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label33.Location = new System.Drawing.Point(398, 164);
@@ -301,7 +301,7 @@ namespace DA_LTTQ
             // lblTGKH
             // 
             this.lblTGKH.AutoSize = true;
-            this.lblTGKH.BackColor = System.Drawing.Color.White;
+            this.lblTGKH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblTGKH.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTGKH.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lblTGKH.Location = new System.Drawing.Point(535, 118);
@@ -314,7 +314,7 @@ namespace DA_LTTQ
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.BackColor = System.Drawing.Color.White;
+            this.label34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label34.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label34.Location = new System.Drawing.Point(398, 185);
@@ -350,6 +350,7 @@ namespace DA_LTTQ
             // 
             // guna2Panel8
             // 
+            this.guna2Panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.guna2Panel8.Controls.Add(this.btnThoat);
             this.guna2Panel8.Controls.Add(this.btnThanhToan);
             this.guna2Panel8.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -365,8 +366,8 @@ namespace DA_LTTQ
             this.btnThoat.CheckedState.Parent = this.btnThoat;
             this.btnThoat.CustomImages.Parent = this.btnThoat;
             this.btnThoat.DisabledState.Parent = this.btnThoat;
-            this.btnThoat.FillColor = System.Drawing.Color.Navy;
-            this.btnThoat.FillColor2 = System.Drawing.Color.Gray;
+            this.btnThoat.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
+            this.btnThoat.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
             this.btnThoat.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.btnThoat.ForeColor = System.Drawing.Color.White;
             this.btnThoat.HoverState.Parent = this.btnThoat;
@@ -384,8 +385,8 @@ namespace DA_LTTQ
             this.btnThanhToan.CheckedState.Parent = this.btnThanhToan;
             this.btnThanhToan.CustomImages.Parent = this.btnThanhToan;
             this.btnThanhToan.DisabledState.Parent = this.btnThanhToan;
-            this.btnThanhToan.FillColor = System.Drawing.Color.Navy;
-            this.btnThanhToan.FillColor2 = System.Drawing.Color.Gray;
+            this.btnThanhToan.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(196)))), ((int)(((byte)(54)))));
+            this.btnThanhToan.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(196)))), ((int)(((byte)(54)))));
             this.btnThanhToan.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.btnThanhToan.ForeColor = System.Drawing.Color.White;
             this.btnThanhToan.HoverState.Parent = this.btnThanhToan;
@@ -399,6 +400,7 @@ namespace DA_LTTQ
             // 
             // guna2Panel7
             // 
+            this.guna2Panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.guna2Panel7.Controls.Add(this.lblGiaTour);
             this.guna2Panel7.Controls.Add(this.label9);
             this.guna2Panel7.Controls.Add(this.lblTongCong);
@@ -424,7 +426,7 @@ namespace DA_LTTQ
             // lblGiaTour
             // 
             this.lblGiaTour.AutoSize = true;
-            this.lblGiaTour.BackColor = System.Drawing.Color.White;
+            this.lblGiaTour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblGiaTour.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGiaTour.Location = new System.Drawing.Point(309, 194);
             this.lblGiaTour.Name = "lblGiaTour";
@@ -436,7 +438,7 @@ namespace DA_LTTQ
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.White;
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label9.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(19, 194);
             this.label9.Name = "label9";
@@ -448,7 +450,7 @@ namespace DA_LTTQ
             // lblTongCong
             // 
             this.lblTongCong.AutoSize = true;
-            this.lblTongCong.BackColor = System.Drawing.Color.White;
+            this.lblTongCong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblTongCong.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTongCong.Location = new System.Drawing.Point(309, 228);
             this.lblTongCong.Name = "lblTongCong";
@@ -460,7 +462,7 @@ namespace DA_LTTQ
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.BackColor = System.Drawing.Color.White;
+            this.label28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label28.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.Location = new System.Drawing.Point(19, 228);
             this.label28.Name = "label28";
@@ -472,7 +474,7 @@ namespace DA_LTTQ
             // lblGiaTN
             // 
             this.lblGiaTN.AutoSize = true;
-            this.lblGiaTN.BackColor = System.Drawing.Color.White;
+            this.lblGiaTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblGiaTN.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.lblGiaTN.Location = new System.Drawing.Point(310, 121);
             this.lblGiaTN.Name = "lblGiaTN";
@@ -484,7 +486,7 @@ namespace DA_LTTQ
             // lblGiaEB
             // 
             this.lblGiaEB.AutoSize = true;
-            this.lblGiaEB.BackColor = System.Drawing.Color.White;
+            this.lblGiaEB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblGiaEB.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.lblGiaEB.Location = new System.Drawing.Point(310, 159);
             this.lblGiaEB.Name = "lblGiaEB";
@@ -496,7 +498,7 @@ namespace DA_LTTQ
             // lblGiaTE
             // 
             this.lblGiaTE.AutoSize = true;
-            this.lblGiaTE.BackColor = System.Drawing.Color.White;
+            this.lblGiaTE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblGiaTE.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.lblGiaTE.Location = new System.Drawing.Point(310, 83);
             this.lblGiaTE.Name = "lblGiaTE";
@@ -508,7 +510,7 @@ namespace DA_LTTQ
             // lblGiaNL
             // 
             this.lblGiaNL.AutoSize = true;
-            this.lblGiaNL.BackColor = System.Drawing.Color.White;
+            this.lblGiaNL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblGiaNL.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.lblGiaNL.Location = new System.Drawing.Point(310, 45);
             this.lblGiaNL.Name = "lblGiaNL";
@@ -520,7 +522,7 @@ namespace DA_LTTQ
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.White;
+            this.label23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label23.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.label23.Location = new System.Drawing.Point(20, 83);
             this.label23.Name = "label23";
@@ -532,7 +534,7 @@ namespace DA_LTTQ
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.BackColor = System.Drawing.Color.White;
+            this.label22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label22.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.label22.Location = new System.Drawing.Point(20, 121);
             this.label22.Name = "label22";
@@ -544,7 +546,7 @@ namespace DA_LTTQ
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.BackColor = System.Drawing.Color.White;
+            this.label21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label21.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.label21.Location = new System.Drawing.Point(20, 159);
             this.label21.Name = "label21";
@@ -556,7 +558,7 @@ namespace DA_LTTQ
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.Color.White;
+            this.label20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label20.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.label20.Location = new System.Drawing.Point(20, 45);
             this.label20.Name = "label20";
@@ -572,7 +574,7 @@ namespace DA_LTTQ
             this.lblSLTong.Font = new System.Drawing.Font("Segoe UI", 18F);
             this.lblSLTong.Location = new System.Drawing.Point(408, 7);
             this.lblSLTong.Name = "lblSLTong";
-            this.lblSLTong.Size = new System.Drawing.Size(28, 32);
+            this.lblSLTong.Size = new System.Drawing.Size(27, 32);
             this.lblSLTong.TabIndex = 43;
             this.lblSLTong.Text = "1";
             this.lblSLTong.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -592,7 +594,7 @@ namespace DA_LTTQ
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.White;
+            this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label18.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.label18.Location = new System.Drawing.Point(20, 12);
             this.label18.Name = "label18";
@@ -603,6 +605,7 @@ namespace DA_LTTQ
             // 
             // guna2Panel6
             // 
+            this.guna2Panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.guna2Panel6.Controls.Add(this.label12);
             this.guna2Panel6.Controls.Add(this.lblTenKH);
             this.guna2Panel6.Controls.Add(this.lblNgayTaoHD);
@@ -630,7 +633,7 @@ namespace DA_LTTQ
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.White;
+            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(57, 117);
             this.label12.Name = "label12";
@@ -641,7 +644,7 @@ namespace DA_LTTQ
             // lblTenKH
             // 
             this.lblTenKH.AutoSize = true;
-            this.lblTenKH.BackColor = System.Drawing.Color.White;
+            this.lblTenKH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblTenKH.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTenKH.Location = new System.Drawing.Point(200, 96);
             this.lblTenKH.Name = "lblTenKH";
@@ -652,7 +655,7 @@ namespace DA_LTTQ
             // lblNgayTaoHD
             // 
             this.lblNgayTaoHD.AutoSize = true;
-            this.lblNgayTaoHD.BackColor = System.Drawing.Color.White;
+            this.lblNgayTaoHD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblNgayTaoHD.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNgayTaoHD.Location = new System.Drawing.Point(200, 33);
             this.lblNgayTaoHD.Name = "lblNgayTaoHD";
@@ -663,7 +666,7 @@ namespace DA_LTTQ
             // lblSoHD
             // 
             this.lblSoHD.AutoSize = true;
-            this.lblSoHD.BackColor = System.Drawing.Color.White;
+            this.lblSoHD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblSoHD.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSoHD.Location = new System.Drawing.Point(200, 3);
             this.lblSoHD.Name = "lblSoHD";
@@ -674,7 +677,7 @@ namespace DA_LTTQ
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.White;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(47, 96);
             this.label6.Name = "label6";
@@ -685,7 +688,7 @@ namespace DA_LTTQ
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(47, 65);
             this.label4.Name = "label4";
@@ -719,7 +722,7 @@ namespace DA_LTTQ
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(47, 33);
             this.label3.Name = "label3";
@@ -730,7 +733,7 @@ namespace DA_LTTQ
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(47, 3);
             this.label1.Name = "label1";
@@ -741,7 +744,7 @@ namespace DA_LTTQ
             // lblDateKetThucChuyenDi
             // 
             this.lblDateKetThucChuyenDi.AutoSize = true;
-            this.lblDateKetThucChuyenDi.BackColor = System.Drawing.Color.White;
+            this.lblDateKetThucChuyenDi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblDateKetThucChuyenDi.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.lblDateKetThucChuyenDi.Location = new System.Drawing.Point(276, 299);
             this.lblDateKetThucChuyenDi.Name = "lblDateKetThucChuyenDi";
@@ -753,7 +756,7 @@ namespace DA_LTTQ
             // lblDateBatDauChuyenDi
             // 
             this.lblDateBatDauChuyenDi.AutoSize = true;
-            this.lblDateBatDauChuyenDi.BackColor = System.Drawing.Color.White;
+            this.lblDateBatDauChuyenDi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblDateBatDauChuyenDi.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.lblDateBatDauChuyenDi.Location = new System.Drawing.Point(276, 212);
             this.lblDateBatDauChuyenDi.Name = "lblDateBatDauChuyenDi";
@@ -765,7 +768,7 @@ namespace DA_LTTQ
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.White;
+            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label10.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.label10.Location = new System.Drawing.Point(276, 279);
             this.label10.Name = "label10";
@@ -777,7 +780,7 @@ namespace DA_LTTQ
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.White;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label7.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.label7.Location = new System.Drawing.Point(276, 192);
             this.label7.Name = "label7";
@@ -801,7 +804,7 @@ namespace DA_LTTQ
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.White;
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.label5.Location = new System.Drawing.Point(20, 164);
             this.label5.Name = "label5";
@@ -813,7 +816,7 @@ namespace DA_LTTQ
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(151, 131);
             this.label2.Name = "label2";
@@ -836,7 +839,7 @@ namespace DA_LTTQ
             // 
             // guna2Panel3
             // 
-            this.guna2Panel3.BackColor = System.Drawing.Color.White;
+            this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.guna2Panel3.Controls.Add(this.btnXoa);
             this.guna2Panel3.Controls.Add(this.btnSua);
             this.guna2Panel3.Controls.Add(this.btnTaoKH);
@@ -861,8 +864,8 @@ namespace DA_LTTQ
             this.btnXoa.CheckedState.Parent = this.btnXoa;
             this.btnXoa.CustomImages.Parent = this.btnXoa;
             this.btnXoa.DisabledState.Parent = this.btnXoa;
-            this.btnXoa.FillColor = System.Drawing.Color.Navy;
-            this.btnXoa.FillColor2 = System.Drawing.Color.Gray;
+            this.btnXoa.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
+            this.btnXoa.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
             this.btnXoa.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnXoa.ForeColor = System.Drawing.Color.White;
             this.btnXoa.HoverState.Parent = this.btnXoa;
@@ -880,8 +883,8 @@ namespace DA_LTTQ
             this.btnSua.CheckedState.Parent = this.btnSua;
             this.btnSua.CustomImages.Parent = this.btnSua;
             this.btnSua.DisabledState.Parent = this.btnSua;
-            this.btnSua.FillColor = System.Drawing.Color.Navy;
-            this.btnSua.FillColor2 = System.Drawing.Color.Gray;
+            this.btnSua.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(116)))), ((int)(((byte)(190)))));
+            this.btnSua.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(116)))), ((int)(((byte)(190)))));
             this.btnSua.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnSua.ForeColor = System.Drawing.Color.White;
             this.btnSua.HoverState.Parent = this.btnSua;
@@ -899,8 +902,8 @@ namespace DA_LTTQ
             this.btnTaoKH.CheckedState.Parent = this.btnTaoKH;
             this.btnTaoKH.CustomImages.Parent = this.btnTaoKH;
             this.btnTaoKH.DisabledState.Parent = this.btnTaoKH;
-            this.btnTaoKH.FillColor = System.Drawing.Color.Navy;
-            this.btnTaoKH.FillColor2 = System.Drawing.Color.Gray;
+            this.btnTaoKH.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(196)))), ((int)(((byte)(54)))));
+            this.btnTaoKH.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(196)))), ((int)(((byte)(54)))));
             this.btnTaoKH.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnTaoKH.ForeColor = System.Drawing.Color.White;
             this.btnTaoKH.HoverState.Parent = this.btnTaoKH;
@@ -995,7 +998,7 @@ namespace DA_LTTQ
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.White;
+            this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label17.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.Location = new System.Drawing.Point(584, 7);
             this.label17.Name = "label17";
@@ -1006,7 +1009,7 @@ namespace DA_LTTQ
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.White;
+            this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label16.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(335, 7);
             this.label16.Name = "label16";
@@ -1017,7 +1020,7 @@ namespace DA_LTTQ
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.White;
+            this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label15.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(225, 7);
             this.label15.Name = "label15";
@@ -1028,7 +1031,7 @@ namespace DA_LTTQ
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.White;
+            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(5, 7);
             this.label14.Name = "label14";
@@ -1063,21 +1066,21 @@ namespace DA_LTTQ
             // 
             // dgvTTKH
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.dgvTTKH.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.dgvTTKH.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvTTKH.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvTTKH.BackgroundColor = System.Drawing.Color.White;
             this.dgvTTKH.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvTTKH.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvTTKH.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvTTKH.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvTTKH.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvTTKH.ColumnHeadersHeight = 21;
             this.dgvTTKH.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -1085,14 +1088,14 @@ namespace DA_LTTQ
             this.Column3,
             this.Column4,
             this.Column5});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvTTKH.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvTTKH.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgvTTKH.EnableHeadersVisualStyles = false;
             this.dgvTTKH.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvTTKH.Location = new System.Drawing.Point(12, 428);
@@ -1173,8 +1176,8 @@ namespace DA_LTTQ
             this.btnThem.CheckedState.Parent = this.btnThem;
             this.btnThem.CustomImages.Parent = this.btnThem;
             this.btnThem.DisabledState.Parent = this.btnThem;
-            this.btnThem.FillColor = System.Drawing.Color.Navy;
-            this.btnThem.FillColor2 = System.Drawing.Color.Gray;
+            this.btnThem.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(196)))), ((int)(((byte)(54)))));
+            this.btnThem.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(196)))), ((int)(((byte)(54)))));
             this.btnThem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnThem.ForeColor = System.Drawing.Color.White;
             this.btnThem.HoverState.Parent = this.btnThem;
@@ -1189,7 +1192,7 @@ namespace DA_LTTQ
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.White;
+            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label13.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(36, 274);
             this.label13.Name = "label13";
@@ -1200,7 +1203,7 @@ namespace DA_LTTQ
             // lblTTLL
             // 
             this.lblTTLL.AutoSize = true;
-            this.lblTTLL.BackColor = System.Drawing.Color.White;
+            this.lblTTLL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblTTLL.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTTLL.Location = new System.Drawing.Point(43, 36);
             this.lblTTLL.Name = "lblTTLL";
@@ -1210,7 +1213,7 @@ namespace DA_LTTQ
             // 
             // guna2Panel2
             // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.guna2Panel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.guna2Panel2.BorderRadius = 10;
             this.guna2Panel2.BorderThickness = 1;
@@ -1257,7 +1260,7 @@ namespace DA_LTTQ
             // lblDiaChi
             // 
             this.lblDiaChi.AutoSize = true;
-            this.lblDiaChi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.lblDiaChi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblDiaChi.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDiaChi.Location = new System.Drawing.Point(391, 87);
             this.lblDiaChi.Name = "lblDiaChi";
@@ -1268,7 +1271,7 @@ namespace DA_LTTQ
             // lblHoVaTen
             // 
             this.lblHoVaTen.AutoSize = true;
-            this.lblHoVaTen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.lblHoVaTen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblHoVaTen.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHoVaTen.Location = new System.Drawing.Point(25, 8);
             this.lblHoVaTen.Name = "lblHoVaTen";
@@ -1279,7 +1282,7 @@ namespace DA_LTTQ
             // lblSDT
             // 
             this.lblSDT.AutoSize = true;
-            this.lblSDT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.lblSDT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblSDT.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSDT.Location = new System.Drawing.Point(25, 87);
             this.lblSDT.Name = "lblSDT";
@@ -1290,7 +1293,7 @@ namespace DA_LTTQ
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.lblEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblEmail.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEmail.Location = new System.Drawing.Point(391, 8);
             this.lblEmail.Name = "lblEmail";
@@ -1381,7 +1384,7 @@ namespace DA_LTTQ
             this.lblTongQuan.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTongQuan.Location = new System.Drawing.Point(252, 10);
             this.lblTongQuan.Name = "lblTongQuan";
-            this.lblTongQuan.Size = new System.Drawing.Size(275, 32);
+            this.lblTongQuan.Size = new System.Drawing.Size(274, 32);
             this.lblTongQuan.TabIndex = 5;
             this.lblTongQuan.Text = "Tổng quan về chuyến đi";
             // 

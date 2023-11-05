@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace DA_LTTQ
@@ -42,24 +37,24 @@ namespace DA_LTTQ
             panelChildForm.Size = new Size(1192, 785);
             openChildForm(new frmDatTour());
 
-            btnTour.FillColor = Color.White;
-            btnTour.FillColor2 = Color.White;
-            btnTour.ForeColor = Color.Black;
+            btnTour.FillColor = Color.FromArgb(255, 196, 54);
+            btnTour.FillColor2 = Color.FromArgb(255, 196, 54);
+            btnTour.ForeColor = Color.White;
 
-            btnTrangChu.FillColor = Color.FromArgb(64, 0, 64);
-            btnTrangChu.FillColor2 = Color.FromArgb(64, 64, 64);
+            btnTrangChu.FillColor = Color.FromArgb(1, 116, 190);
+            btnTrangChu.FillColor2 = Color.FromArgb(1, 116, 190);
             btnTrangChu.ForeColor = Color.White;
 
-            btnQLTT.FillColor = Color.FromArgb(64, 0, 64);
-            btnQLTT.FillColor2 = Color.FromArgb(64, 64, 64);
+            btnQLTT.FillColor = Color.FromArgb(1, 116, 190);
+            btnQLTT.FillColor2 = Color.FromArgb(1, 116, 190);
             btnQLTT.ForeColor = Color.White;
 
-            btnTrangChu.FillColor = Color.FromArgb(64, 0, 64);
-            btnTrangChu.FillColor2 = Color.FromArgb(64, 64, 64);
+            btnTrangChu.FillColor = Color.FromArgb(1, 116, 190);
+            btnTrangChu.FillColor2 = Color.FromArgb(1, 116, 190);
             btnTrangChu.ForeColor = Color.White;
 
-            btnHoaDon.FillColor = Color.FromArgb(64, 0, 64);
-            btnHoaDon.FillColor2 = Color.FromArgb(64, 64, 64);
+            btnHoaDon.FillColor = Color.FromArgb(1, 116, 190);
+            btnHoaDon.FillColor2 = Color.FromArgb(1, 116, 190);
             btnHoaDon.ForeColor = Color.White;
         }
 
@@ -79,20 +74,20 @@ namespace DA_LTTQ
             this.Size = new Size(1218, 933);
             panelChildForm.Size = new Size(1192, 785);
 
-            btnTrangChu.FillColor = Color.White;
-            btnTrangChu.FillColor2 = Color.White;
-            btnTrangChu.ForeColor = Color.Black;
+            btnTrangChu.FillColor = Color.FromArgb(255, 196, 54);
+            btnTrangChu.FillColor2 = Color.FromArgb(255, 196, 54);
+            btnTrangChu.ForeColor = Color.White;
 
-            btnTour.FillColor = Color.FromArgb(64, 0, 64);
-            btnTour.FillColor2 = Color.FromArgb(64, 64, 64);
+            btnTour.FillColor = Color.FromArgb(1, 116, 190);
+            btnTour.FillColor2 = Color.FromArgb(1, 116, 190);
             btnTour.ForeColor = Color.White;
 
-            btnQLTT.FillColor = Color.FromArgb(64, 0, 64);
-            btnQLTT.FillColor2 = Color.FromArgb(64, 64, 64);
+            btnQLTT.FillColor = Color.FromArgb(1, 116, 190);
+            btnQLTT.FillColor2 = Color.FromArgb(1, 116, 190);
             btnQLTT.ForeColor = Color.White;
 
-            btnHoaDon.FillColor = Color.FromArgb(64, 0, 64);
-            btnHoaDon.FillColor2 = Color.FromArgb(64, 64, 64);
+            btnHoaDon.FillColor = Color.FromArgb(1, 116, 190);
+            btnHoaDon.FillColor2 = Color.FromArgb(1, 116, 190);
             btnHoaDon.ForeColor = Color.White;
             openChildForm(new frmHome());
         }
@@ -109,43 +104,43 @@ namespace DA_LTTQ
             this.Size = new Size(1218, 933);
             panelChildForm.Size = new Size(1192, 785);
 
-            btnTrangChu.FillColor = Color.White;
-            btnTrangChu.FillColor2 = Color.White;
-            btnTrangChu.ForeColor = Color.Black;
+            btnTrangChu.FillColor = Color.FromArgb(255, 196, 54);
+            btnTrangChu.FillColor2 = Color.FromArgb(255, 196, 54);
+            btnTrangChu.ForeColor = Color.White;
 
-            btnTour.FillColor = Color.FromArgb(64, 0, 64);
-            btnTour.FillColor2 = Color.FromArgb(64, 64, 64);
+            btnTour.FillColor = Color.FromArgb(1, 116, 190);
+            btnTour.FillColor2 = Color.FromArgb(1, 116, 190);
             btnTour.ForeColor = Color.White;
 
-            btnQLTT.FillColor = Color.FromArgb(64, 0, 64);
-            btnQLTT.FillColor2 = Color.FromArgb(64, 64, 64);
+            btnQLTT.FillColor = Color.FromArgb(1, 116, 190);
+            btnQLTT.FillColor2 = Color.FromArgb(1, 116, 190);
             btnQLTT.ForeColor = Color.White;
 
-            btnHoaDon.FillColor = Color.FromArgb(64, 0, 64);
-            btnHoaDon.FillColor2 = Color.FromArgb(64, 64, 64);
+            btnHoaDon.FillColor = Color.FromArgb(1, 116, 190);
+            btnHoaDon.FillColor2 = Color.FromArgb(1, 116, 190);
             btnHoaDon.ForeColor = Color.White;
             openChildForm(new frmHome());
         }
 
         private void btnHoaDon_Click(object sender, EventArgs e)
         {
-            panelChildForm.Size = new Size(1192, 552); 
+            panelChildForm.Size = new Size(1192, 552);
             this.Size = new Size(1218, 700);
             this.StartPosition = FormStartPosition.CenterScreen;
-            btnHoaDon.FillColor = Color.White;
-            btnHoaDon.FillColor2 = Color.White;
-            btnHoaDon.ForeColor = Color.Black;
+            btnHoaDon.FillColor = Color.FromArgb(255, 196, 54);
+            btnHoaDon.FillColor2 = Color.FromArgb(255, 196, 54);
+            btnHoaDon.ForeColor = Color.White;
 
-            btnTour.FillColor = Color.FromArgb(64, 0, 64);
-            btnTour.FillColor2 = Color.FromArgb(64, 64, 64);
+            btnTour.FillColor = Color.FromArgb(1, 116, 190);
+            btnTour.FillColor2 = Color.FromArgb(1, 116, 190);
             btnTour.ForeColor = Color.White;
 
-            btnQLTT.FillColor = Color.FromArgb(64, 0, 64);
-            btnQLTT.FillColor2 = Color.FromArgb(64, 64, 64);
+            btnQLTT.FillColor = Color.FromArgb(1, 116, 190);
+            btnQLTT.FillColor2 = Color.FromArgb(1, 116, 190);
             btnQLTT.ForeColor = Color.White;
 
-            btnTrangChu.FillColor = Color.FromArgb(64, 0, 64);
-            btnTrangChu.FillColor2 = Color.FromArgb(64, 64, 64);
+            btnTrangChu.FillColor = Color.FromArgb(1, 116, 190);
+            btnTrangChu.FillColor2 = Color.FromArgb(1, 116, 190);
             btnTrangChu.ForeColor = Color.White;
             openChildForm(new frmHoaDon());
         }

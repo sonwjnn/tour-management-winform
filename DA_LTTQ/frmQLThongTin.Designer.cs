@@ -40,7 +40,6 @@ namespace DA_LTTQ
             this.btnNhanVien = new Guna.UI2.WinForms.Guna2GradientTileButton();
             this.pnlMenu1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.frmTour = new Guna.UI2.WinForms.Guna2GradientTileButton();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2GradientPanel5 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.ControlMin = new Guna.UI2.WinForms.Guna2ControlBox();
             this.ControlClose = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -48,7 +47,6 @@ namespace DA_LTTQ
             this.pnlMenu3.SuspendLayout();
             this.pnlMenu2.SuspendLayout();
             this.pnlMenu1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2GradientPanel5.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,7 +66,7 @@ namespace DA_LTTQ
             // pnlMenu4
             // 
             this.pnlMenu4.Controls.Add(this.btnQLDV);
-            this.pnlMenu4.Location = new System.Drawing.Point(326, 44);
+            this.pnlMenu4.Location = new System.Drawing.Point(448, 44);
             this.pnlMenu4.Name = "pnlMenu4";
             this.pnlMenu4.ShadowDecoration.Parent = this.pnlMenu4;
             this.pnlMenu4.Size = new System.Drawing.Size(170, 52);
@@ -81,8 +79,8 @@ namespace DA_LTTQ
             this.btnQLDV.CustomImages.Parent = this.btnQLDV;
             this.btnQLDV.DisabledState.Parent = this.btnQLDV;
             this.btnQLDV.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnQLDV.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.btnQLDV.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnQLDV.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(116)))), ((int)(((byte)(190)))));
+            this.btnQLDV.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(116)))), ((int)(((byte)(190)))));
             this.btnQLDV.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLDV.ForeColor = System.Drawing.Color.White;
             this.btnQLDV.HoverState.Parent = this.btnQLDV;
@@ -97,7 +95,7 @@ namespace DA_LTTQ
             // pnlMenu3
             // 
             this.pnlMenu3.Controls.Add(this.btnKH);
-            this.pnlMenu3.Location = new System.Drawing.Point(725, 44);
+            this.pnlMenu3.Location = new System.Drawing.Point(640, 44);
             this.pnlMenu3.Name = "pnlMenu3";
             this.pnlMenu3.ShadowDecoration.Parent = this.pnlMenu3;
             this.pnlMenu3.Size = new System.Drawing.Size(170, 52);
@@ -110,8 +108,8 @@ namespace DA_LTTQ
             this.btnKH.CustomImages.Parent = this.btnKH;
             this.btnKH.DisabledState.Parent = this.btnKH;
             this.btnKH.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnKH.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.btnKH.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnKH.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(116)))), ((int)(((byte)(190)))));
+            this.btnKH.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(116)))), ((int)(((byte)(190)))));
             this.btnKH.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKH.ForeColor = System.Drawing.Color.White;
             this.btnKH.HoverState.Parent = this.btnKH;
@@ -126,7 +124,7 @@ namespace DA_LTTQ
             // pnlMenu2
             // 
             this.pnlMenu2.Controls.Add(this.btnNhanVien);
-            this.pnlMenu2.Location = new System.Drawing.Point(919, 44);
+            this.pnlMenu2.Location = new System.Drawing.Point(834, 44);
             this.pnlMenu2.Name = "pnlMenu2";
             this.pnlMenu2.ShadowDecoration.Parent = this.pnlMenu2;
             this.pnlMenu2.Size = new System.Drawing.Size(170, 52);
@@ -139,8 +137,8 @@ namespace DA_LTTQ
             this.btnNhanVien.CustomImages.Parent = this.btnNhanVien;
             this.btnNhanVien.DisabledState.Parent = this.btnNhanVien;
             this.btnNhanVien.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnNhanVien.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.btnNhanVien.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnNhanVien.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(116)))), ((int)(((byte)(190)))));
+            this.btnNhanVien.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(116)))), ((int)(((byte)(190)))));
             this.btnNhanVien.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhanVien.ForeColor = System.Drawing.Color.White;
             this.btnNhanVien.HoverState.Parent = this.btnNhanVien;
@@ -155,7 +153,7 @@ namespace DA_LTTQ
             // pnlMenu1
             // 
             this.pnlMenu1.Controls.Add(this.frmTour);
-            this.pnlMenu1.Location = new System.Drawing.Point(132, 44);
+            this.pnlMenu1.Location = new System.Drawing.Point(254, 44);
             this.pnlMenu1.Name = "pnlMenu1";
             this.pnlMenu1.ShadowDecoration.Parent = this.pnlMenu1;
             this.pnlMenu1.Size = new System.Drawing.Size(170, 52);
@@ -168,8 +166,8 @@ namespace DA_LTTQ
             this.frmTour.CustomImages.Parent = this.frmTour;
             this.frmTour.DisabledState.Parent = this.frmTour;
             this.frmTour.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.frmTour.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.frmTour.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.frmTour.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(116)))), ((int)(((byte)(190)))));
+            this.frmTour.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(116)))), ((int)(((byte)(190)))));
             this.frmTour.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.frmTour.ForeColor = System.Drawing.Color.White;
             this.frmTour.HoverState.Parent = this.frmTour;
@@ -181,21 +179,9 @@ namespace DA_LTTQ
             this.frmTour.Text = "Quản lý Tour";
             this.frmTour.Click += new System.EventHandler(this.frmTour_Click);
             // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.Image = global::DA_LTTQ.Properties.Resources._8_Logo_Travel_Agent_Vietravel_01;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(502, 8);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(217, 94);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 0;
-            this.guna2PictureBox1.TabStop = false;
-            // 
             // guna2GradientPanel5
             // 
-            this.guna2GradientPanel5.Controls.Add(this.guna2PictureBox1);
+            this.guna2GradientPanel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(53)))), ((int)(((byte)(106)))));
             this.guna2GradientPanel5.Controls.Add(this.pnlMenu1);
             this.guna2GradientPanel5.Controls.Add(this.pnlMenu2);
             this.guna2GradientPanel5.Controls.Add(this.pnlMenu3);
@@ -215,7 +201,7 @@ namespace DA_LTTQ
             this.ControlMin.BorderRadius = 5;
             this.ControlMin.ControlBoxStyle = Guna.UI2.WinForms.Enums.ControlBoxStyle.Custom;
             this.ControlMin.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            this.ControlMin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.ControlMin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
             this.ControlMin.HoverState.Parent = this.ControlMin;
             this.ControlMin.IconColor = System.Drawing.Color.White;
             this.ControlMin.Location = new System.Drawing.Point(1134, 8);
@@ -243,7 +229,7 @@ namespace DA_LTTQ
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(40)))), ((int)(((byte)(37)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(53)))), ((int)(((byte)(106)))));
             this.ClientSize = new System.Drawing.Size(1218, 912);
             this.Controls.Add(this.guna2GradientPanel5);
             this.Controls.Add(this.panelChildForm);
@@ -256,7 +242,6 @@ namespace DA_LTTQ
             this.pnlMenu3.ResumeLayout(false);
             this.pnlMenu2.ResumeLayout(false);
             this.pnlMenu1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2GradientPanel5.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -277,6 +262,5 @@ namespace DA_LTTQ
         private Guna.UI2.WinForms.Guna2GradientTileButton frmTour;
         private Guna.UI2.WinForms.Guna2ControlBox ControlMin;
         private Guna.UI2.WinForms.Guna2ControlBox ControlClose;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
     }
 }

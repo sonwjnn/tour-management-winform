@@ -60,13 +60,13 @@ namespace DA_LTTQ
             this.cmbSoNgay = new Guna.UI2.WinForms.Guna2ComboBox();
             this.lblSoNgay = new System.Windows.Forms.Label();
             this.dgvTour = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblKQSoTour = new System.Windows.Forms.Label();
+            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grbLocKQ.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numSL)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTour)).BeginInit();
@@ -91,8 +91,8 @@ namespace DA_LTTQ
             this.btlLocKQ.CheckedState.Parent = this.btlLocKQ;
             this.btlLocKQ.CustomImages.Parent = this.btlLocKQ;
             this.btlLocKQ.DisabledState.Parent = this.btlLocKQ;
-            this.btlLocKQ.FillColor = System.Drawing.Color.Navy;
-            this.btlLocKQ.FillColor2 = System.Drawing.Color.Gray;
+            this.btlLocKQ.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(116)))), ((int)(((byte)(190)))));
+            this.btlLocKQ.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(116)))), ((int)(((byte)(190)))));
             this.btlLocKQ.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btlLocKQ.ForeColor = System.Drawing.Color.White;
             this.btlLocKQ.HoverState.Parent = this.btlLocKQ;
@@ -241,7 +241,7 @@ namespace DA_LTTQ
             // 
             // btnTrongNuoc
             // 
-            this.btnTrongNuoc.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btnTrongNuoc.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(53)))), ((int)(((byte)(106)))));
             this.btnTrongNuoc.BorderRadius = 10;
             this.btnTrongNuoc.BorderThickness = 1;
             this.btnTrongNuoc.CheckedState.Parent = this.btnTrongNuoc;
@@ -250,7 +250,7 @@ namespace DA_LTTQ
             this.btnTrongNuoc.FillColor = System.Drawing.Color.White;
             this.btnTrongNuoc.FillColor2 = System.Drawing.Color.White;
             this.btnTrongNuoc.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTrongNuoc.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.btnTrongNuoc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(53)))), ((int)(((byte)(106)))));
             this.btnTrongNuoc.HoverState.Parent = this.btnTrongNuoc;
             this.btnTrongNuoc.Location = new System.Drawing.Point(6, 28);
             this.btnTrongNuoc.Name = "btnTrongNuoc";
@@ -323,8 +323,8 @@ namespace DA_LTTQ
             this.btnReset.CheckedState.Parent = this.btnReset;
             this.btnReset.CustomImages.Parent = this.btnReset;
             this.btnReset.DisabledState.Parent = this.btnReset;
-            this.btnReset.FillColor = System.Drawing.Color.Navy;
-            this.btnReset.FillColor2 = System.Drawing.Color.Gray;
+            this.btnReset.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(196)))), ((int)(((byte)(54)))));
+            this.btnReset.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(196)))), ((int)(((byte)(54)))));
             this.btnReset.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset.ForeColor = System.Drawing.Color.White;
             this.btnReset.HoverState.Parent = this.btnReset;
@@ -459,7 +459,7 @@ namespace DA_LTTQ
             this.dgvTour.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
             this.dgvTour.ThemeStyle.BackColor = System.Drawing.Color.White;
             this.dgvTour.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvTour.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.dgvTour.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(116)))), ((int)(((byte)(190)))));
             this.dgvTour.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dgvTour.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.dgvTour.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
@@ -475,53 +475,6 @@ namespace DA_LTTQ
             this.dgvTour.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.dgvTour.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTour_CellClick);
             // 
-            // Column8
-            // 
-            this.Column8.DataPropertyName = "MaTour";
-            this.Column8.FillWeight = 39F;
-            this.Column8.HeaderText = "Mã Tour";
-            this.Column8.Name = "Column8";
-            this.Column8.ReadOnly = true;
-            // 
-            // Column9
-            // 
-            this.Column9.DataPropertyName = "TenTour";
-            this.Column9.HeaderText = "Tên Tour";
-            this.Column9.Name = "Column9";
-            this.Column9.ReadOnly = true;
-            // 
-            // Column10
-            // 
-            this.Column10.DataPropertyName = "SoLuongConLai";
-            this.Column10.FillWeight = 30F;
-            this.Column10.HeaderText = "Số chỗ";
-            this.Column10.Name = "Column10";
-            this.Column10.ReadOnly = true;
-            // 
-            // Column11
-            // 
-            this.Column11.DataPropertyName = "NgayDiTour";
-            this.Column11.FillWeight = 60F;
-            this.Column11.HeaderText = "Ngày đi";
-            this.Column11.Name = "Column11";
-            this.Column11.ReadOnly = true;
-            // 
-            // Column12
-            // 
-            this.Column12.DataPropertyName = "NgayKetThuc";
-            this.Column12.FillWeight = 60F;
-            this.Column12.HeaderText = "Ngày kết thúc";
-            this.Column12.Name = "Column12";
-            this.Column12.ReadOnly = true;
-            // 
-            // Column13
-            // 
-            this.Column13.DataPropertyName = "GiaTour";
-            this.Column13.FillWeight = 50F;
-            this.Column13.HeaderText = "Giá Tour";
-            this.Column13.Name = "Column13";
-            this.Column13.ReadOnly = true;
-            // 
             // lblKQSoTour
             // 
             this.lblKQSoTour.AutoSize = true;
@@ -532,10 +485,58 @@ namespace DA_LTTQ
             this.lblKQSoTour.TabIndex = 8;
             this.lblKQSoTour.Text = "Đã tìm được 0 Tour";
             // 
+            // Column13
+            // 
+            this.Column13.DataPropertyName = "GiaTour";
+            this.Column13.FillWeight = 50F;
+            this.Column13.HeaderText = "Giá Tour";
+            this.Column13.Name = "Column13";
+            this.Column13.ReadOnly = true;
+            // 
+            // Column12
+            // 
+            this.Column12.DataPropertyName = "NgayKetThuc";
+            this.Column12.FillWeight = 60F;
+            this.Column12.HeaderText = "Ngày kết thúc";
+            this.Column12.Name = "Column12";
+            this.Column12.ReadOnly = true;
+            // 
+            // Column11
+            // 
+            this.Column11.DataPropertyName = "NgayDiTour";
+            this.Column11.FillWeight = 60F;
+            this.Column11.HeaderText = "Ngày đi";
+            this.Column11.Name = "Column11";
+            this.Column11.ReadOnly = true;
+            // 
+            // Column10
+            // 
+            this.Column10.DataPropertyName = "SoLuongConLai";
+            this.Column10.FillWeight = 30F;
+            this.Column10.HeaderText = "Số chỗ";
+            this.Column10.Name = "Column10";
+            this.Column10.ReadOnly = true;
+            // 
+            // Column9
+            // 
+            this.Column9.DataPropertyName = "TenTour";
+            this.Column9.HeaderText = "Tên Tour";
+            this.Column9.Name = "Column9";
+            this.Column9.ReadOnly = true;
+            // 
+            // Column8
+            // 
+            this.Column8.DataPropertyName = "MaTour";
+            this.Column8.FillWeight = 39F;
+            this.Column8.HeaderText = "Mã Tour";
+            this.Column8.Name = "Column8";
+            this.Column8.ReadOnly = true;
+            // 
             // frmDatTour
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.ClientSize = new System.Drawing.Size(1192, 785);
             this.Controls.Add(this.lblKQSoTour);
             this.Controls.Add(this.dgvTour);
@@ -582,14 +583,14 @@ namespace DA_LTTQ
         private Guna.UI2.WinForms.Guna2ComboBox cmbSoNgay;
         private System.Windows.Forms.Label lblSoNgay;
         private Guna.UI2.WinForms.Guna2NumericUpDown numSL;
+        private System.Windows.Forms.Label lblKQSoTour;
+        private Guna.UI2.WinForms.Guna2GradientButton btnReset;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
-        private System.Windows.Forms.Label lblKQSoTour;
-        private Guna.UI2.WinForms.Guna2GradientButton btnReset;
     }
 }
 
