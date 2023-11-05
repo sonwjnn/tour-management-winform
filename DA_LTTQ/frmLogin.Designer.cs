@@ -31,7 +31,6 @@ namespace DA_LTTQ
         {
             this.components = new System.ComponentModel.Container();
             this.ElipseFrm = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2CustomCheckBox1 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
             this.txtMK = new Guna.UI2.WinForms.Guna2TextBox();
@@ -39,7 +38,6 @@ namespace DA_LTTQ
             this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2GradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // ElipseFrm
@@ -47,32 +45,13 @@ namespace DA_LTTQ
             this.ElipseFrm.BorderRadius = 25;
             this.ElipseFrm.TargetControl = this;
             // 
-            // guna2GradientPanel1
-            // 
-            this.guna2GradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(122)))), ((int)(((byte)(116)))));
-            this.guna2GradientPanel1.BorderColor = System.Drawing.Color.White;
-            this.guna2GradientPanel1.BorderRadius = 25;
-            this.guna2GradientPanel1.BorderThickness = 5;
-            this.guna2GradientPanel1.Controls.Add(this.label1);
-            this.guna2GradientPanel1.Controls.Add(this.guna2CustomCheckBox1);
-            this.guna2GradientPanel1.Controls.Add(this.txtMK);
-            this.guna2GradientPanel1.Controls.Add(this.txtTenDN);
-            this.guna2GradientPanel1.Controls.Add(this.btnLogin);
-            this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel1);
-            this.guna2GradientPanel1.FillColor = System.Drawing.Color.DarkSlateBlue;
-            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.PaleVioletRed;
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(533, 119);
-            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(354, 303);
-            this.guna2GradientPanel1.TabIndex = 1;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(96, 173);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(736, 689);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(122, 18);
             this.label1.TabIndex = 7;
@@ -85,7 +64,7 @@ namespace DA_LTTQ
             this.guna2CustomCheckBox1.CheckedState.BorderThickness = 0;
             this.guna2CustomCheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2CustomCheckBox1.CheckedState.Parent = this.guna2CustomCheckBox1;
-            this.guna2CustomCheckBox1.Location = new System.Drawing.Point(57, 172);
+            this.guna2CustomCheckBox1.Location = new System.Drawing.Point(710, 687);
             this.guna2CustomCheckBox1.Name = "guna2CustomCheckBox1";
             this.guna2CustomCheckBox1.ShadowDecoration.Parent = this.guna2CustomCheckBox1;
             this.guna2CustomCheckBox1.Size = new System.Drawing.Size(20, 20);
@@ -100,7 +79,7 @@ namespace DA_LTTQ
             // 
             // txtMK
             // 
-            this.txtMK.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.txtMK.BackColor = System.Drawing.Color.Transparent;
             this.txtMK.BorderColor = System.Drawing.Color.Black;
             this.txtMK.BorderRadius = 7;
             this.txtMK.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -115,7 +94,7 @@ namespace DA_LTTQ
             this.txtMK.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtMK.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMK.HoverState.Parent = this.txtMK;
-            this.txtMK.Location = new System.Drawing.Point(43, 125);
+            this.txtMK.Location = new System.Drawing.Point(710, 629);
             this.txtMK.Name = "txtMK";
             this.txtMK.PasswordChar = '*';
             this.txtMK.PlaceholderText = "";
@@ -127,7 +106,7 @@ namespace DA_LTTQ
             // 
             // txtTenDN
             // 
-            this.txtTenDN.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.txtTenDN.BackColor = System.Drawing.Color.Transparent;
             this.txtTenDN.BorderColor = System.Drawing.Color.Black;
             this.txtTenDN.BorderRadius = 7;
             this.txtTenDN.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -142,7 +121,7 @@ namespace DA_LTTQ
             this.txtTenDN.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtTenDN.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTenDN.HoverState.Parent = this.txtTenDN;
-            this.txtTenDN.Location = new System.Drawing.Point(43, 66);
+            this.txtTenDN.Location = new System.Drawing.Point(710, 564);
             this.txtTenDN.Name = "txtTenDN";
             this.txtTenDN.PasswordChar = '\0';
             this.txtTenDN.PlaceholderText = "";
@@ -154,19 +133,19 @@ namespace DA_LTTQ
             // 
             // btnLogin
             // 
-            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(92)))), ((int)(((byte)(140)))));
+            this.btnLogin.BackColor = System.Drawing.Color.Transparent;
             this.btnLogin.BorderRadius = 7;
             this.btnLogin.CheckedState.Parent = this.btnLogin;
             this.btnLogin.CustomImages.Parent = this.btnLogin;
             this.btnLogin.DisabledState.Parent = this.btnLogin;
-            this.btnLogin.FillColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnLogin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(196)))), ((int)(((byte)(54)))));
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
             this.btnLogin.HoverState.Parent = this.btnLogin;
-            this.btnLogin.Location = new System.Drawing.Point(181, 204);
+            this.btnLogin.Location = new System.Drawing.Point(710, 725);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.ShadowDecoration.Parent = this.btnLogin;
-            this.btnLogin.Size = new System.Drawing.Size(126, 50);
+            this.btnLogin.Size = new System.Drawing.Size(280, 50);
             this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "Login";
             this.btnLogin.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -174,22 +153,23 @@ namespace DA_LTTQ
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(143, 15);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(799, 496);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(75, 39);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(101, 52);
             this.guna2HtmlLabel1.TabIndex = 0;
             this.guna2HtmlLabel1.Text = "Login";
             // 
             // guna2ControlBox1
             // 
             this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox1.BorderRadius = 7;
-            this.guna2ControlBox1.FillColor = System.Drawing.Color.White;
+            this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
             this.guna2ControlBox1.HoverState.Parent = this.guna2ControlBox1;
-            this.guna2ControlBox1.IconColor = System.Drawing.Color.Black;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(869, 12);
+            this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox1.Location = new System.Drawing.Point(1176, 12);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.ShadowDecoration.Parent = this.guna2ControlBox1;
             this.guna2ControlBox1.Size = new System.Drawing.Size(30, 30);
@@ -202,25 +182,28 @@ namespace DA_LTTQ
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::DA_LTTQ.Properties.Resources.zyro_image;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(911, 608);
+            this.ClientSize = new System.Drawing.Size(1218, 933);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2ControlBox1);
-            this.Controls.Add(this.guna2GradientPanel1);
+            this.Controls.Add(this.guna2CustomCheckBox1);
+            this.Controls.Add(this.txtMK);
+            this.Controls.Add(this.btnLogin);
+            this.Controls.Add(this.txtTenDN);
+            this.Controls.Add(this.guna2HtmlLabel1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmLogin";
             this.Load += new System.EventHandler(this.frmLogin_Load);
-            this.guna2GradientPanel1.ResumeLayout(false);
-            this.guna2GradientPanel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private Guna.UI2.WinForms.Guna2Elipse ElipseFrm;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
         private Guna.UI2.WinForms.Guna2TextBox txtMK;
         private Guna.UI2.WinForms.Guna2TextBox txtTenDN;
         private Guna.UI2.WinForms.Guna2Button btnLogin;

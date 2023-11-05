@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace DA_LTTQ
@@ -51,13 +47,13 @@ namespace DA_LTTQ
         private void btnTrongNuoc_Click(object sender, EventArgs e)
         {
             KQSoTour();
-            btnTrongNuoc.FillColor = Color.MidnightBlue;
-            btnTrongNuoc.FillColor2 = Color.MidnightBlue;
+            btnTrongNuoc.FillColor = ColorTranslator.FromHtml("#0C356A");
+            btnTrongNuoc.FillColor2 = ColorTranslator.FromHtml("#0C356A");
             btnTrongNuoc.ForeColor = Color.White;
 
             btnNgoaiNuoc.FillColor = Color.White;
             btnNgoaiNuoc.FillColor2 = Color.White;
-            btnNgoaiNuoc.ForeColor = Color.MidnightBlue;
+            btnNgoaiNuoc.ForeColor = ColorTranslator.FromHtml("#0C356A");
 
             cmbDiemDi.ValueMember = "MaDDi";
             cmbDiemDi.DisplayMember = "TenDDi";
@@ -76,13 +72,13 @@ namespace DA_LTTQ
         private void btnNgoaiNuoc_Click(object sender, EventArgs e)
         {
             KQSoTour();
-            btnNgoaiNuoc.FillColor = Color.MidnightBlue;
-            btnNgoaiNuoc.FillColor2 = Color.MidnightBlue;
+            btnNgoaiNuoc.FillColor = ColorTranslator.FromHtml("#0C356A");
+            btnNgoaiNuoc.FillColor2 = ColorTranslator.FromHtml("#0C356A");
             btnNgoaiNuoc.ForeColor = Color.White;
 
             btnTrongNuoc.FillColor = Color.White;
             btnTrongNuoc.FillColor2 = Color.White;
-            btnTrongNuoc.ForeColor = Color.MidnightBlue;
+            btnTrongNuoc.ForeColor = ColorTranslator.FromHtml("#0C356A");
 
             cmbDiemDi.ValueMember = "MaDDi";
             cmbDiemDi.DisplayMember = "TenDDi";
@@ -103,13 +99,13 @@ namespace DA_LTTQ
 
         private void LoadData()
         {
-            btnTrongNuoc.FillColor = Color.MidnightBlue;
-            btnTrongNuoc.FillColor2 = Color.MidnightBlue;
+            btnTrongNuoc.FillColor = ColorTranslator.FromHtml("#0C356A");
+            btnTrongNuoc.FillColor2 = ColorTranslator.FromHtml("#0C356A");
             btnTrongNuoc.ForeColor = Color.White;
 
             btnNgoaiNuoc.FillColor = Color.White;
             btnNgoaiNuoc.FillColor2 = Color.White;
-            btnNgoaiNuoc.ForeColor = Color.MidnightBlue;
+            btnNgoaiNuoc.ForeColor = ColorTranslator.FromHtml("#0C356A");
 
             cmbDiemDi.ValueMember = "MaDDi";
             cmbDiemDi.DisplayMember = "TenDDi";

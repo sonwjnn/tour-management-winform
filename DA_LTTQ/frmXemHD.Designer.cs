@@ -30,14 +30,15 @@ namespace DA_LTTQ
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.ElipseFrm = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.ElipseCloseFrm = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.ElipseMin = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.btnHuyTour = new Guna.UI2.WinForms.Guna2GradientButton();
             this.lblGiaTour = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.lblTenTour = new System.Windows.Forms.Label();
@@ -60,7 +61,6 @@ namespace DA_LTTQ
             this.label2 = new System.Windows.Forms.Label();
             this.ControlMin = new Guna.UI2.WinForms.Guna2ControlBox();
             this.ControlClose = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.btnHuyTour = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvThanhVien)).BeginInit();
             this.SuspendLayout();
@@ -96,20 +96,48 @@ namespace DA_LTTQ
             this.guna2CustomGradientPanel1.Controls.Add(this.label2);
             this.guna2CustomGradientPanel1.Controls.Add(this.ControlMin);
             this.guna2CustomGradientPanel1.Controls.Add(this.ControlClose);
-            this.guna2CustomGradientPanel1.FillColor = System.Drawing.SystemColors.Control;
-            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.SystemColors.Control;
-            this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.SystemColors.Control;
-            this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.SystemColors.Control;
+            this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
+            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
+            this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
+            this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(12, 12);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.ShadowDecoration.Parent = this.guna2CustomGradientPanel1;
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(822, 555);
             this.guna2CustomGradientPanel1.TabIndex = 0;
             // 
+            // btnHuyTour
+            // 
+            this.btnHuyTour.BackColor = System.Drawing.Color.White;
+            this.btnHuyTour.BorderColor = System.Drawing.Color.Transparent;
+            this.btnHuyTour.BorderRadius = 10;
+            this.btnHuyTour.BorderThickness = 1;
+            this.btnHuyTour.CheckedState.Parent = this.btnHuyTour;
+            this.btnHuyTour.CustomImages.Parent = this.btnHuyTour;
+            this.btnHuyTour.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnHuyTour.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnHuyTour.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnHuyTour.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnHuyTour.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnHuyTour.DisabledState.Parent = this.btnHuyTour;
+            this.btnHuyTour.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
+            this.btnHuyTour.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
+            this.btnHuyTour.Font = new System.Drawing.Font("Consolas", 13F);
+            this.btnHuyTour.ForeColor = System.Drawing.Color.White;
+            this.btnHuyTour.HoverState.Parent = this.btnHuyTour;
+            this.btnHuyTour.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnHuyTour.Location = new System.Drawing.Point(672, 508);
+            this.btnHuyTour.Name = "btnHuyTour";
+            this.btnHuyTour.ShadowDecoration.Parent = this.btnHuyTour;
+            this.btnHuyTour.Size = new System.Drawing.Size(117, 45);
+            this.btnHuyTour.TabIndex = 140;
+            this.btnHuyTour.Text = "Hủy Tour";
+            this.btnHuyTour.Click += new System.EventHandler(this.btnHuyTour_Click);
+            // 
             // lblGiaTour
             // 
             this.lblGiaTour.AutoSize = true;
-            this.lblGiaTour.BackColor = System.Drawing.SystemColors.Control;
+            this.lblGiaTour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblGiaTour.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.lblGiaTour.Location = new System.Drawing.Point(657, 74);
             this.lblGiaTour.Name = "lblGiaTour";
@@ -120,7 +148,7 @@ namespace DA_LTTQ
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.SystemColors.Control;
+            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label10.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.label10.Location = new System.Drawing.Point(81, 74);
             this.label10.Name = "label10";
@@ -130,7 +158,7 @@ namespace DA_LTTQ
             // 
             // lblTenTour
             // 
-            this.lblTenTour.BackColor = System.Drawing.SystemColors.Control;
+            this.lblTenTour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblTenTour.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.lblTenTour.Location = new System.Drawing.Point(195, 74);
             this.lblTenTour.Name = "lblTenTour";
@@ -141,7 +169,7 @@ namespace DA_LTTQ
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.SystemColors.Control;
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label9.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.label9.Location = new System.Drawing.Point(543, 74);
             this.label9.Name = "label9";
@@ -152,7 +180,7 @@ namespace DA_LTTQ
             // lblNgayLapHD
             // 
             this.lblNgayLapHD.AutoSize = true;
-            this.lblNgayLapHD.BackColor = System.Drawing.SystemColors.Control;
+            this.lblNgayLapHD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblNgayLapHD.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.lblNgayLapHD.Location = new System.Drawing.Point(481, 43);
             this.lblNgayLapHD.Name = "lblNgayLapHD";
@@ -163,7 +191,7 @@ namespace DA_LTTQ
             // lblTenKH
             // 
             this.lblTenKH.AutoSize = true;
-            this.lblTenKH.BackColor = System.Drawing.SystemColors.Control;
+            this.lblTenKH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblTenKH.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.lblTenKH.Location = new System.Drawing.Point(481, 14);
             this.lblTenKH.Name = "lblTenKH";
@@ -174,7 +202,7 @@ namespace DA_LTTQ
             // lblTenNV
             // 
             this.lblTenNV.AutoSize = true;
-            this.lblTenNV.BackColor = System.Drawing.SystemColors.Control;
+            this.lblTenNV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblTenNV.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.lblTenNV.Location = new System.Drawing.Point(195, 43);
             this.lblTenNV.Name = "lblTenNV";
@@ -185,7 +213,7 @@ namespace DA_LTTQ
             // lblSoHD
             // 
             this.lblSoHD.AutoSize = true;
-            this.lblSoHD.BackColor = System.Drawing.SystemColors.Control;
+            this.lblSoHD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblSoHD.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.lblSoHD.Location = new System.Drawing.Point(195, 12);
             this.lblSoHD.Name = "lblSoHD";
@@ -195,21 +223,21 @@ namespace DA_LTTQ
             // 
             // dgvThanhVien
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.dgvThanhVien.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            this.dgvThanhVien.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
             this.dgvThanhVien.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvThanhVien.BackgroundColor = System.Drawing.Color.White;
             this.dgvThanhVien.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvThanhVien.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvThanhVien.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.MidnightBlue;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvThanhVien.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.MidnightBlue;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvThanhVien.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvThanhVien.ColumnHeadersHeight = 30;
             this.dgvThanhVien.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -217,14 +245,14 @@ namespace DA_LTTQ
             this.Column3,
             this.Column4,
             this.Column5});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvThanhVien.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvThanhVien.DefaultCellStyle = dataGridViewCellStyle9;
             this.dgvThanhVien.EnableHeadersVisualStyles = false;
             this.dgvThanhVien.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvThanhVien.Location = new System.Drawing.Point(13, 132);
@@ -296,7 +324,7 @@ namespace DA_LTTQ
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.Control;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.label3.Location = new System.Drawing.Point(81, 12);
             this.label3.Name = "label3";
@@ -307,7 +335,7 @@ namespace DA_LTTQ
             // lblNgayLapHDd
             // 
             this.lblNgayLapHDd.AutoSize = true;
-            this.lblNgayLapHDd.BackColor = System.Drawing.SystemColors.Control;
+            this.lblNgayLapHDd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblNgayLapHDd.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.lblNgayLapHDd.Location = new System.Drawing.Point(355, 43);
             this.lblNgayLapHDd.Name = "lblNgayLapHDd";
@@ -318,7 +346,7 @@ namespace DA_LTTQ
             // lblTenKHd
             // 
             this.lblTenKHd.AutoSize = true;
-            this.lblTenKHd.BackColor = System.Drawing.SystemColors.Control;
+            this.lblTenKHd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.lblTenKHd.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.lblTenKHd.Location = new System.Drawing.Point(355, 12);
             this.lblTenKHd.Name = "lblTenKHd";
@@ -329,7 +357,7 @@ namespace DA_LTTQ
             // s
             // 
             this.s.AutoSize = true;
-            this.s.BackColor = System.Drawing.SystemColors.Control;
+            this.s.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.s.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.s.Location = new System.Drawing.Point(81, 43);
             this.s.Name = "s";
@@ -367,7 +395,7 @@ namespace DA_LTTQ
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.Control;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(206)))));
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.label2.Location = new System.Drawing.Point(31, 521);
             this.label2.Name = "label2";
@@ -395,7 +423,7 @@ namespace DA_LTTQ
             this.ControlClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.ControlClose.BackColor = System.Drawing.SystemColors.Control;
             this.ControlClose.BorderRadius = 5;
-            this.ControlClose.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
+            this.ControlClose.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
             this.ControlClose.HoverState.Parent = this.ControlClose;
             this.ControlClose.IconColor = System.Drawing.Color.White;
             this.ControlClose.Location = new System.Drawing.Point(780, 12);
@@ -404,38 +432,11 @@ namespace DA_LTTQ
             this.ControlClose.Size = new System.Drawing.Size(32, 32);
             this.ControlClose.TabIndex = 122;
             // 
-            // btnHuyTour
-            // 
-            this.btnHuyTour.BackColor = System.Drawing.Color.White;
-            this.btnHuyTour.BorderRadius = 10;
-            this.btnHuyTour.BorderThickness = 1;
-            this.btnHuyTour.CheckedState.Parent = this.btnHuyTour;
-            this.btnHuyTour.CustomImages.Parent = this.btnHuyTour;
-            this.btnHuyTour.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnHuyTour.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnHuyTour.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnHuyTour.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnHuyTour.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnHuyTour.DisabledState.Parent = this.btnHuyTour;
-            this.btnHuyTour.FillColor = System.Drawing.Color.Navy;
-            this.btnHuyTour.FillColor2 = System.Drawing.Color.Gray;
-            this.btnHuyTour.Font = new System.Drawing.Font("Consolas", 13F);
-            this.btnHuyTour.ForeColor = System.Drawing.Color.White;
-            this.btnHuyTour.HoverState.Parent = this.btnHuyTour;
-            this.btnHuyTour.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnHuyTour.Location = new System.Drawing.Point(672, 508);
-            this.btnHuyTour.Name = "btnHuyTour";
-            this.btnHuyTour.ShadowDecoration.Parent = this.btnHuyTour;
-            this.btnHuyTour.Size = new System.Drawing.Size(117, 45);
-            this.btnHuyTour.TabIndex = 140;
-            this.btnHuyTour.Text = "Hủy Tour";
-            this.btnHuyTour.Click += new System.EventHandler(this.btnHuyTour_Click);
-            // 
             // frmXemHD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(40)))), ((int)(((byte)(37)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(53)))), ((int)(((byte)(106)))));
             this.ClientSize = new System.Drawing.Size(846, 579);
             this.Controls.Add(this.guna2CustomGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

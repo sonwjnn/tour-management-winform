@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
 
 namespace DA_LTTQ
 {
@@ -32,7 +29,7 @@ namespace DA_LTTQ
 
         public DataTable GetAllTour2(tbl_Tour tour)
         {
-            string sql = "SELECT * FROM TOUR WHERE MATOUR = '"+ tour.MaTour +"'";
+            string sql = "SELECT * FROM TOUR WHERE MATOUR = '" + tour.MaTour + "'";
             SqlConnection con = dataCon.getConnect();
             sqlDA = new SqlDataAdapter(sql, con);
             con.Open();
@@ -44,7 +41,7 @@ namespace DA_LTTQ
 
         public DataTable GetLocTour(tbl_Tour tour)
         {
-            string sql = "SELECT MATOUR, TENTOUR, SOLUONGCONLAI, NGAYDITOUR, NGAYKETTHUC, GIATOUR FROM dbo.TOUR WHERE MALTOUR = '"+ tour.MaLTour +"'";
+            string sql = "SELECT MATOUR, TENTOUR, SOLUONGCONLAI, NGAYDITOUR, NGAYKETTHUC, GIATOUR FROM dbo.TOUR WHERE MALTOUR = '" + tour.MaLTour + "'";
             SqlConnection con = dataCon.getConnect();
             sqlDA = new SqlDataAdapter(sql, con);
             con.Open();
@@ -57,7 +54,7 @@ namespace DA_LTTQ
 
         public bool UpdatesltOUR(tbl_Tour tour, tbl_KhachHang khachhang)
         {
-            string sql = "update tour set soluongconlai = soluongconlai - (select count(matv) from thongtintv where makh = '"+ khachhang.MaKH +"') where matour = '" + tour.MaTour +"'";
+            string sql = "update tour set soluongconlai = soluongconlai - (select count(matv) from thongtintv where makh = '" + khachhang.MaKH + "') where matour = '" + tour.MaTour + "'";
             SqlConnection con = dataCon.getConnect();
             try
             {
@@ -87,7 +84,7 @@ namespace DA_LTTQ
 
         public DataTable LocTour(tbl_Tour tour)
         {
-            string sql = "EXEC SP_LocTour @MaLTour = '" + tour.MaLTour +"', @MaDDi = '" + tour.MaDDi + "', @MaDDen = '" + tour.MaDDen + "', @SoNgay1 = "+ tour.SoNgay1 +", @SoNgay2 = "+ tour.SoNgay2 +", @NgayDi = '"+ tour.NgayDiTour.ToString("yyyy-MM-dd") + "', @SoNguoi = "+tour.SLLoc+", @MaPT = '"+ tour.MaPT +"'";
+            string sql = "EXEC SP_LocTour @MaLTour = '" + tour.MaLTour + "', @MaDDi = '" + tour.MaDDi + "', @MaDDen = '" + tour.MaDDen + "', @SoNgay1 = " + tour.SoNgay1 + ", @SoNgay2 = " + tour.SoNgay2 + ", @NgayDi = '" + tour.NgayDiTour.ToString("yyyy-MM-dd") + "', @SoNguoi = " + tour.SLLoc + ", @MaPT = '" + tour.MaPT + "'";
             SqlConnection con = dataCon.getConnect();
             sqlDA = new SqlDataAdapter(sql, con);
             con.Open();
@@ -111,7 +108,7 @@ namespace DA_LTTQ
 
         public DataTable GetTTTour(tbl_Tour tour)
         {
-            string sql = "EXEC dbo.SP_GetTTTour @MaTour = '"+ tour.MaTour +"'";
+            string sql = "EXEC dbo.SP_GetTTTour @MaTour = '" + tour.MaTour + "'";
             SqlConnection con = dataCon.getConnect();
             sqlDA = new SqlDataAdapter(sql, con);
             con.Open();
